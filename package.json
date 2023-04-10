@@ -1,0 +1,19 @@
+{
+  "name": "notes_app",
+  "version": "1.0.0",
+  "description": "Note app for saving notes to remember or to do later.",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "debugAdd": "node app.js add --title=\"g\" --body=\"sds\"",
+    "debugClear": "node app.js clear",
+    "debugRemove": "node app.js remove --title=\"rty\""
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^2.4.1",
+    "yargs": "^17.7.1"
+  }
+}
